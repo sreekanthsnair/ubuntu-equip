@@ -6,9 +6,6 @@
 # Licence: MIT
 # with help from http://www.denofubiquity.com/nosql/412/
 
-wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_base.sh && bash equip_base.sh
-
-sudo apt-get update -y
 sudo apt-get install tcl8.5
 
 # wget http://redis.googlecode.com/files/redis-2.4.17.tar.gz
@@ -23,7 +20,7 @@ sudo make install
 
 cd ..
 
-wget --no-check-certificate https://raw.github.com/aglover/ubuntu-equip/master/etc/redis.conf
+wget --no-check-certificate https://raw.github.com/sreekanth/ubuntu-equip/master/etc/redis.conf
 sudo mv redis.conf /etc/redis.conf
 
 wget https://github.com/ijonas/dotfiles/raw/master/etc/init.d/redis-server
