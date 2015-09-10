@@ -8,7 +8,7 @@
 
 curl -OL https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.7.1.zip
 unzip elasticsearch-* && rm -f elasticsearch-*.zip
-mv elasticsearch-1.7.1.zip/ elasticsearch/
+mv elasticsearch-1.7.1/ elasticsearch/
 
 cd elasticsearch/
 bin/plugin -install polyfractal/elasticsearch-inquisitor
