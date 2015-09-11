@@ -20,7 +20,7 @@ sudo make install
 
 cd ..
 
-wget --no-check-certificate https://raw.github.com/sreekanth/ubuntu-equip/master/etc/redis.conf
+wget --no-check-certificate https://raw.githubusercontent.com/sreekanthsnair/ubuntu-equip/master/etc/redis.conf
 sudo mv redis.conf /etc/redis.conf
 
 wget https://github.com/ijonas/dotfiles/raw/master/etc/init.d/redis-server
